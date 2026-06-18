@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Avodah LLC Compliance \u0026 Management Dashboard",
+  "description": "Secure document management, real-time regulatory compliance tracking, automated tax reporting assistance, and intelligent AI legal file analysis for Integrated Avodah LLC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
