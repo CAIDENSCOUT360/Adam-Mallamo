@@ -72,3 +72,20 @@ export interface AccountingIntegration {
   status: IntegrationStatus;
   lastSynced: string;
 }
+
+export interface ComplianceChecklistItem {
+  id: string;
+  title: string;
+  dueDate: string;
+  assignedName: string;
+  completed: boolean;
+  notes?: string;
+}
+
+export interface ComplianceChecklist {
+  id: string;
+  name: string;
+  description: string;
+  items: ComplianceChecklistItem[];
+  createdAt: string;
+}
